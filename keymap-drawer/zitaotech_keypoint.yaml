@@ -103,14 +103,14 @@ layers:
   - LCTRL
   - LGUI
   - '&bootloader'
-  - BT CLR
+  - '&bl BL_CYCLE'
   - {t: ▽, type: trans}
   - SPACE
   - {t: LOWER, type: held}
   - LOWER
   - SPACE
   - {t: MOUSE, h: toggle}
-  - OUT TOG
+  - BT CLR
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
