@@ -90,10 +90,10 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3        &kp N4  &kp N5     &kp N6     &kp N7     &kp N8      &kp N9      &kp N0      &kp DEL
-&kp CAPS   &trans    &trans  &trans        &trans  &trans     &mkp RCLK  &mkp RCLK  &trans      &trans      &trans      &trans   &kp SQT   &kp ENTER
-&kp LSHFT  &trans    &trans  &trans        &trans  &trans     &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans      &trans   &kp LBKT  &kp RBKT   &kp NUBS  &kp RSHFT
-&kp LCTRL  &kp LGUI  &BOT    &bl BL_CYCLE  &trans  &kp SPACE  &mo 1      &mo 1      &kp SPACE   &to 3       &bt BT_CLR  &BOT     &trans    &trans
+&kp ESC    &kp N1    &kp N2  &kp N3      &kp N4  &kp N5     &kp N6     &kp N7     &kp N8      &kp N9      &kp N0      &kp DEL
+&kp CAPS   &trans    &trans  &trans      &trans  &trans     &mkp RCLK  &mkp RCLK  &trans      &trans      &trans      &trans   &kp SQT   &kp ENTER
+&kp LSHFT  &trans    &trans  &trans      &trans  &trans     &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans      &trans   &kp LBKT  &kp RBKT   &kp NUBS  &kp RSHFT
+&kp LCTRL  &kp LGUI  &BOT    &caps_word  &trans  &kp SPACE  &mo 1      &mo 1      &kp SPACE   &to 3       &bt BT_CLR  &BOT     &trans    &trans
             >;
 
             sensor-bindings =
