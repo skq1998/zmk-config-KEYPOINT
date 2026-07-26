@@ -103,7 +103,7 @@ layers:
   - LCTRL
   - LGUI
   - '&bootloader'
-  - '&bl BL_CYCLE'
+  - '&caps_word'
   - {t: ▽, type: trans}
   - SPACE
   - {t: LOWER, type: held}
